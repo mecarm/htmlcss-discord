@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Kanit', sans-serif
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
 
 header{
     background-image: url("../img/jumbo.png");
@@ -42,6 +45,11 @@ button{
     border: none;
     border-radius: 40px;
     vertical-align: bottom;
+}
+
+#black-button{
+    background-color: #23272A;
+    color: white;
 }
 
 .download::before{
@@ -106,7 +114,7 @@ button{
     background-size: contain;
 }
 
-.txt button{
+.txt button, .end button{
     background-color: #91A1E2;
 }
 
@@ -121,15 +129,39 @@ footer{
 
 .social{
     flex-basis: 30%;
-    background-color: blue;
     height: 300px;
+    line-height: 20px;
+}
+
+span img{
+    width: 20px;
+    height: 10px;
+}
+
+span::after{
+    content: "\25bc";
+    font-size: 10px;
 }
 
 footer ul {
     flex-basis: 10%;
-    background-color: aqua;
     list-style:  none inside;
     text-align: center;
+    line-height: 30px;
+}
+
+h6{
+    color: #91A1E2;
+    font-size: 1.1rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    color: #91A1E2;
+}
+
+li{
+    font-size: 0.8rem;
 }
 
 div.footer {
