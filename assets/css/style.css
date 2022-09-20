@@ -5,12 +5,16 @@
 }
 
 header{
-    background-color: lightgray;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
 }
 
 nav{
     width: 80%;
     margin: auto;
+    padding-top: 15px;
 }
 
 .flex-row{
@@ -18,26 +22,39 @@ nav{
     flex-direction: row;
 }
 
-.heading{
-    height: 100px;
+.main-box ul{
+    display: flex;
+    list-style: none;
+    padding-left: 80px;
+}
+
+.main-box ul li{
+    flex-grow: 1;
 }
 
 .small-box{
-    background-color: lightgreen;
     flex-basis: 20%;
+    text-align: center;
+}
+
+button{
+    padding:2%;
+    border: none;
+    border-radius: 20px ;
 }
 
 .main-box{
-    background-color: aquamarine;
     flex-basis: 60%;
 }
 
 .heading-text{
-    width: 60%;
+    width: 50%;
     margin: auto;
     text-align: center;
+    padding-top: 100px;
     height: 400px;
-    background-color: aliceblue;
+    font-size: 1.2rem;
+    
 }
 
 .container{
