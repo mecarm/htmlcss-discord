@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 
 *{
     margin: 0;
@@ -7,6 +7,7 @@
     font-family: 'Kanit', sans-serif
 }
 
+/* Stile header */
 header{
     background-image: url("../img/jumbo.png");
     background-size: cover;
@@ -22,17 +23,14 @@ nav{
 
 .flex-row{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
 
 .main-box ul{
     display: flex;
     list-style: none;
     justify-content: space-around;
-}
 
-.main-box ul li{
-    justify-content: center;
 }
 
 .small-box{
@@ -40,6 +38,19 @@ nav{
     text-align: center;
 }
 
+.main-box{
+    flex-basis: 60%;
+}
+
+.heading-text{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    height: 400px;
+}
+
+/* Stile button */
 button{
     padding:1.5%;
     border: none;
@@ -58,18 +69,7 @@ button{
     padding-right: 6px;
 }
 
-.main-box{
-    flex-basis: 60%;
-}
-
-.heading-text{
-    width: 50%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-    height: 400px;
-}
-
+/* Contenitori img e txt sezione centrale */
 .container{
     width: 80%;
     margin: auto;
@@ -88,7 +88,6 @@ button{
     flex-basis: 60%;
 }
 
-
 .text-box{
     flex-basis: 40%;
     padding: 60px 150px 0 0 ;
@@ -98,6 +97,7 @@ button{
     order: 1
 }
 
+/* Contenitore grigio di testo e immagine grande */
 .bg-grey{
     background-color: lightgray;
 }
@@ -118,6 +118,7 @@ button{
     background-color: #91A1E2;
 }
 
+/* Stile footer */
 footer{
     background-color: #23272A;
     color: white;
@@ -129,7 +130,6 @@ footer{
 
 .social{
     flex-basis: 30%;
-    height: 300px;
     line-height: 20px;
 }
 
@@ -145,19 +145,20 @@ span::after{
 
 footer ul {
     flex-basis: 10%;
-    list-style:  none inside;
-    text-align: center;
+    list-style:  none;
     line-height: 30px;
 }
 
-h6{
+h3, h6{
     color: #91A1E2;
+}
+
+h6{
     font-size: 1.1rem;
 }
 
 h3{
     font-size: 1.5rem;
-    color: #91A1E2;
 }
 
 li{
