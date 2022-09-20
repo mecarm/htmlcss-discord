@@ -53,8 +53,6 @@ button{
     text-align: center;
     padding-top: 100px;
     height: 400px;
-    font-size: 1.2rem;
-    
 }
 
 .container{
@@ -63,19 +61,22 @@ button{
     padding: 30px;
 }
 
+.section-middle, .heading-text{
+    font-size: 1.2rem;
+}
+
 .img-txt{
-    height: 400px;
     justify-content: space-between;
 }
 
 .img-box{
-    flex-basis: 50%;
-    background-color: antiquewhite;
+    flex-basis: 60%;
 }
 
+
 .text-box{
-    flex-basis: 43%;
-    background-color: aquamarine;
+    flex-basis: 40%;
+    padding: 60px 150px 0 0 ;
 }
 
 .reverse{
