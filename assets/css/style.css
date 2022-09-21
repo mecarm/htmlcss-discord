@@ -12,6 +12,7 @@ header{
     background-image: url("../img/jumbo.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     color: white;
 }
 
@@ -30,7 +31,6 @@ nav{
     display: flex;
     list-style: none;
     justify-content: space-around;
-
 }
 
 .small-box{
@@ -46,7 +46,7 @@ nav{
     width: 50%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
     height: 400px;
 }
 
@@ -90,7 +90,12 @@ button{
 
 .text-box{
     flex-basis: 40%;
-    padding: 60px 150px 0 0 ;
+    padding: 30px 150px 0 0 ;
+}
+
+.text-reverse{
+    padding-right: unset;
+    padding-left: 100px;
 }
 
 .reverse{
@@ -171,4 +176,5 @@ div.footer {
 
 div.end{
     justify-content: space-between;
+    align-items: center;
 }
